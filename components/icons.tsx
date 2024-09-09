@@ -150,10 +150,33 @@ export const HeartFilledIcon = ({
   >
     <path
       d="M12.62 20.81c-.34.12-.9.12-1.24 0C8.48 19.82 2 15.69 2 8.69 2 5.6 4.49 3.1 7.56 3.1c1.82 0 3.43.88 4.44 2.24a5.53 5.53 0 0 1 4.44-2.24C19.51 3.1 22 5.6 22 8.69c0 7-6.48 11.13-9.38 12.12Z"
-      fill="currentColor"
+      fill="#84cc16"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
+    />
+  </svg>
+);
+export const PlayIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    height={size || height}
+    role="presentation"
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+    <path
+      clipRule="evenodd"
+      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.6935 15.8458L15.4137 13.059C16.1954 12.5974 16.1954 11.4026 15.4137 10.941L10.6935 8.15419C9.93371 7.70561 9 8.28947 9 9.21316V14.7868C9 15.7105 9.93371 16.2944 10.6935 15.8458Z"
+      fill="#84cc16"
+      fillRule="evenodd"
     />
   </svg>
 );
@@ -171,14 +194,14 @@ export const SearchIcon = (props: IconSvgProps) => (
   >
     <path
       d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-      stroke="currentColor"
+      stroke="#84cc16"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
     />
     <path
       d="M22 22L20 20"
-      stroke="currentColor"
+      stroke="#84cc16"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"

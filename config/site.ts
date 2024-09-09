@@ -57,49 +57,47 @@ export const siteConfig = {
       desc: "1",
     },
     {
-      label: "5 Person",
-      value: "1",
-      desc: "1",
-    },
-    {
-      label: "6 Person",
+      label: "5 Person or More",
       value: "1",
       desc: "1",
     },
   ],
   Cooking: [
     {
-      label: "Low Calories",
+      label: "Low Sugar",
     },
     {
-      label: "Gluten-Free",
+      label: "Dairy-Free",
     },
     {
-      label: "Vegan",
+      label: "Vegetarian",
     },
     {
-      label: "Keto-Friendly",
+      label: "Whole30",
     },
     {
-      label: "Paleo",
+      label: "Pescatarian",
     },
   ],
 
   FavoriteCuisine: [
     {
-      label: "Italian",
+      label: "Indonesian",
     },
     {
-      label: "Japanese",
+      label: "Korean",
     },
     {
-      label: "Mexican",
+      label: "Thai",
     },
     {
-      label: "Indian",
+      label: "Chinese",
     },
     {
-      label: "Mediterranean",
+      label: "French",
+    },
+    {
+      label: "Lebanese",
     },
   ],
 };

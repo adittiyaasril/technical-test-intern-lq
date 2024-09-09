@@ -56,10 +56,13 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
-            {/* <Navbar /> */}
+            <Navbar />
             <main
-              className="h-screen bg-cover bg-center"
-              style={{ backgroundImage: "url('/bg.jpg')" }}
+              className={clsx(
+                "h-screen bg-cover bg-center",
+                "bg-[url('/bg.jpg')]",
+                "dark:bg-[url('/bg-dark.png')]",
+              )}
             >
               {children}
             </main>
