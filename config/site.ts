@@ -1,69 +1,105 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "HelloFresh®",
+  description:
+    "HelloFresh delivers meal kits with fresh ingredients and easy recipes, making home cooking convenient and hassle-free.",
   navItems: [
     {
-      label: "Home",
+      label: "Discover",
+      desc: "Explore a world of culinary experiences",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Watch",
+      desc: "Indulge cooking and culinary inspirations",
+      href: "/",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Detox",
+      desc: "Revitalize with our fresh and healthy meals",
+      href: "/",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Discover",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Watch",
+      href: "/",
     },
     {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Detox",
+      href: "/",
     },
   ],
-  links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
+  People: [
+    {
+      label: "1 Person",
+      value: "1",
+      desc: "1",
+    },
+    {
+      label: "2 Person",
+      value: "1",
+      desc: "1",
+    },
+    {
+      label: "3 Person",
+      value: "1",
+      desc: "1",
+    },
+    {
+      label: "4 Person",
+      value: "1",
+      desc: "1",
+    },
+    {
+      label: "5 Person",
+      value: "1",
+      desc: "1",
+    },
+    {
+      label: "6 Person",
+      value: "1",
+      desc: "1",
+    },
+  ],
+  Cooking: [
+    {
+      label: "Low Calories",
+    },
+    {
+      label: "Gluten-Free",
+    },
+    {
+      label: "Vegan",
+    },
+    {
+      label: "Keto-Friendly",
+    },
+    {
+      label: "Paleo",
+    },
+  ],
+
+  FavoriteCuisine: [
+    {
+      label: "Italian",
+    },
+    {
+      label: "Japanese",
+    },
+    {
+      label: "Mexican",
+    },
+    {
+      label: "Indian",
+    },
+    {
+      label: "Mediterranean",
+    },
+  ],
 };
